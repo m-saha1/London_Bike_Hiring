@@ -84,10 +84,9 @@ The model identifies periods of unusually high bike usage across London.
 
 Example demand shock visualisation:
 
-*(add your saved plot here)*
-
 ```
-images/demand_shocks.png
+<img width="1400" height="600" alt="Demand_Shock_Example" src="https://github.com/user-attachments/assets/dd1071e0-75ce-4813-9f44-9e008360f6ef" />
+
 ```
 
 ---
@@ -111,18 +110,23 @@ london-bike-analysis
 │
 ├── app
 │   ├── database.py
-│   └── analytics.py
+│   ├── analytics.py
+|   ├── crud.py
+|   ├── main.py
+|   ├── models.py
+|   ├── schema.py
+|   └── run_analytics.py
 │
 ├── ml
 │   ├── demand_model.py
 │   └── shock_detection.py
 │
 ├── visualisations
-│   └── shock_plot.py
+│   └── plot.py
 │
 ├── requirements.txt
 ├── README.md
-└── .env.example
+└── .env_example
 ```
 
 ---
@@ -166,7 +170,7 @@ Then update with your PostgreSQL credentials.
 Example analysis:
 
 ```
-python visualisations/shock_plot.py
+python visualisations/plot.py
 ```
 
 This will load the data from PostgreSQL and generate demand shock visualisations.
