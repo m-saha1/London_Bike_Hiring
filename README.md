@@ -131,7 +131,7 @@ london-bike-analysis
 
 ---
 
-# ⚙️ Installation
+# Installation
 
 Clone the repository:
 
@@ -189,7 +189,7 @@ Potential extensions:
 
 ---
 
-# 👤 Author
+# Author
 
 Mohamed Sahal a 2nd Year Data Science & AI at UAL's Creative Computing Institute (CCI)
 
